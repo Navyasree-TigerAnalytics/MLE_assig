@@ -1,0 +1,137 @@
+/* Reset */
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Main Styling */
+/* Core Styling */
+/* Body, Links, Paragraphs etc. */
+
+
+html,
+body {
+ font-family: 'Raleway', sans-serif;
+ line-height: 1.5em;
+ min-height: 100vh;
+
+}
+
+/* Utility Classes */
+
+.container {
+ position: relative;
+
+ width: 100%;
+ overflow: auto;
+ padding: 0 20px;
+}
+
+#main-content {
+ position: relative;
+
+ max-width: 1500px;
+ overflow: auto;
+ padding: 20px 20px;
+ background: rgb(240, 235, 235);
+ height: 100vh;
+}
+
+.main-container {
+
+ max-width: 1300px;
+ overflow: auto;
+
+
+}
+
+.l-heading {
+ font-size: 40px;
+ line-height: 1;
+ margin: 10px 10px;
+}
+
+.clr {
+ clear: both;
+}
+
+/* Element Wise Styling */
+
+/* Header */
+
+
+
+#header h1 {
+ float: left;
+ height: fit-content;
+
+}
+
+#header img {
+ float: right;
+
+ border-radius: 50%;
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+
+#dashboard-logo img {
+ width: 40px;
+ height: 30px;
+ border-radius: 5px;
+ float: left;
+ display: block;
+ padding-right: 10px;
+
+}
+
+
+
+.box {
+ position: relative;
+ float: left;
+ height: max-content;
+ width: 30%;
+ margin: 10px;
+ padding: 10px;
+ border-radius: 10px;
+ color: #fff;
+}
+
+.box-1 {
+ background: url(../img/box1.jpg);
+}
+
+.box-2 {
+ background: url(../img/box2.jpg);
+}
+
+.box-3 {
+ background: url(../img/box3.jpg);
+}
+
+
+
+
+#tabular-content {
+ background: #fff;
+}
+
+.container-table {
+
+ overflow-x: auto;
+}
+
+.container-table table {
+ width: 100%;
+ text-align: left;
+}
+
+.container-table table tr th,
+.container-table table tr td {
+
+ border-bottom: #ddd dotted 2px;
+}
