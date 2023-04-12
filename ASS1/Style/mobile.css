@@ -1,0 +1,38 @@
+.l-heading {
+ font-size: 38.2px;
+
+}
+
+#header {
+ background-color: antiquewhite;
+}
+
+#header img {
+ float: right;
+ border-radius: 50%;
+ display: block;
+ width: 40px;
+ height: 45px;
+
+}
+
+#header h1 {
+
+
+ text-align: left;
+ font-style: italic;
+ color: brown;
+ text-shadow: 2px 2px 2px black;
+}
+
+.main-container {
+ margin-top: 0px;
+ margin-bottom: 0px;
+
+}
+
+.box {
+ float: none;
+ width: 95%;
+ margin-top: 20px;
+}
